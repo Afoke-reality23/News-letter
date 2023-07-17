@@ -37,8 +37,8 @@ label {
 button,input{
     display: block;
     margin: 1em 1.5rem 20px;
-    width: 360px;
-    height: 50px;
+    width: 320px;
+    height: 40px;
     border-radius: 10px;
     outline: none;
     border: 1px solid #999;
@@ -49,6 +49,8 @@ button{
     background: hsl(234, 29%, 20%);
     color: #fff;
     letter-spacing: 1px;
+    height:60px;
+    width:360px;
 }
 input[placeholder]{
     padding: 10px;

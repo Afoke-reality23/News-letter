@@ -43,6 +43,9 @@ button,input{
     outline: none;
     border: 1px solid #999;
 }
+input{
+    margin-left:1.7em;
+}
 button{
     font-size: 1rem;
     font-family: roboto;

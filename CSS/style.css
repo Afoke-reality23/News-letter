@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: roboto;
+    padding: 0 30px;
+}
+p {
+    margin: 20px 10px 0;
+    letter-spacing: 1px
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+}
+p::first-letter {
+    text-transform: capitalize;
+}
+header {
+    font-family: roboto;
+    padding: 0 20px;
+}
+header h1 {
+    font-size: 2.5rem;
+    color:hsl(234, 29%, 20%);
+}
+label {
+    display: block;
+    margin: 2.5em 1.5rem 0;
+}
+button,input{
+    display: block;
+    margin: 1em 1.5rem 20px;
+    width: 360px;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #999;
+}
+button{
+    font-size: 1rem;
+    font-family: roboto;
+    background: hsl(234, 29%, 20%);
+    color: #fff;
+    letter-spacing: 1px;
+}
+input[placeholder]{
+    padding: 10px;
+}
+.sec3 {
+    display: none;
+}
+@media screen and (min-width:980px) {
+    body {
+        background-color: hsl(235, 18%, 26%);
+    }
+    main {
+        flex-direction: row;
+        gap: 3em;
+        margin: 3em;
+        padding: 1em;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .sec1 {
+        display: none;
+    }
+    .sec2 {
+        font-family: roboto;
+        margin-left: 2em;
+        flex-basis: 42%;
+    }
+    .sec3 {
+        display: block;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: hsl(234, 29%, 20%);
+        font-family: roboto;
+    }
+    /*main div {
+        align-items: center;
+        gap: 10px;
+    }*/
+    label {
+        margin: 3em 0 0.5em;
+        display: block;
+    }
+    button,
+    input {
+        height: 50px;
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+    }
+    button {
+        margin-top: 1.5em;
+    }
+}
